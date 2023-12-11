@@ -3,15 +3,15 @@ import { RxSlash } from "react-icons/rx";
 const Navbar = () => {
   const links = (
     <>
-      <div className="flex justify-center items-center gap-5 md:gap-7">
+      <div className="flex justify-between items-center gap-3 md:gap-7 font-bold">
         <NavLink
           to="/"
           className={({ isActive, isPending }) =>
             isPending
               ? "pending"
               : isActive
-              ? "bg-zinc-400/10 font-bold py-2 px-4 rounded-xl"
-              : ""
+                ? "bg-zinc-400/10 py-2 px-4 rounded-xl"
+                : "py-2 px-4"
           }
         >
           <div className="flex justify-center items-center gap-2">
@@ -28,8 +28,8 @@ const Navbar = () => {
             isPending
               ? "pending"
               : isActive
-              ? "bg-zinc-400/10 font-bold py-2 px-4 rounded-xl"
-              : ""
+                ? "bg-zinc-400/10 py-2 px-4 rounded-xl"
+                : "py-2 px-4"
           }
         >
           Resume
@@ -41,8 +41,8 @@ const Navbar = () => {
             isPending
               ? "pending"
               : isActive
-              ? "bg-zinc-400/10 font-bold py-2 px-4 rounded-xl"
-              : ""
+                ? "bg-zinc-400/10 py-2 px-4 rounded-xl"
+                : "py-2 px-4"
           }
         >
           Projects
@@ -54,8 +54,8 @@ const Navbar = () => {
             isPending
               ? "pending"
               : isActive
-              ? "bg-zinc-400/10 font-bold py-2 px-4 rounded-xl"
-              : ""
+                ? "bg-zinc-400/10 py-2 px-4 rounded-xl"
+                : "py-2 px-4"
           }
         >
           Skills
@@ -67,8 +67,8 @@ const Navbar = () => {
             isPending
               ? "pending"
               : isActive
-              ? "bg-zinc-400/10 font-bold py-2 px-4 rounded-xl"
-              : ""
+                ? "bg-zinc-400/10 py-2 px-4 rounded-xl"
+                : "py-2 px-4"
           }
         >
           Contact
