@@ -1,24 +1,25 @@
-import alibaba from "../../../public/Resources/logo/Alibaba.svg";
-import amazon from "../../../public/Resources/logo/Amazon.svg";
-import daraz from "../../../public/Resources/logo/Daraz.svg";
-import ebay from "../../../public/Resources/logo/Ebay.svg";
-import rakuten from "../../../public/Resources/logo/Rakuten.svg";
-import target from "../../../public/Resources/logo/Target.svg";
-import walmart from "../../../public/Resources/logo/Walmart.svg";
+import react from "/Resources/SkillsIcon/1React-Dark.svg";
+import tailwind from "/Resources/SkillsIcon/2TailwindCSS-Dark.svg";
+import js from "/Resources/SkillsIcon/3JavaScript.svg";
+import express from "/Resources/SkillsIcon/4ExpressJS-Dark.svg";
+import mongodb from "/Resources/SkillsIcon/5MongoDB.svg";
+import figma from "/Resources/SkillsIcon/6Figma-Dark.svg";
+import vscode from "/Resources/SkillsIcon/8VSCode-Dark.svg";
 
 function LogosSection() {
   return (
     <section className="container mx-auto">
-      {/* <h6 className="text-left pl-7 text-xs mt-6">Our Sponsor Partners</h6> */}
-      <div className="p-7 flex justify-between align-middle items-center gap-3 border-b-1 border-t-1 border-white">
-        <h6 className="text-xs underline">Our Sponsor Partners</h6>
-        <Logo logoSrc={alibaba} />
-        <Logo logoSrc={amazon} />
-        <Logo logoSrc={daraz} />
-        <Logo logoSrc={ebay} />
-        <Logo logoSrc={rakuten} />
-        <Logo logoSrc={target} />
-        <Logo logoSrc={walmart} />
+      <div className="flex flex-col gap-7">
+        <div className="flex justify-around align-middle items-center gap-2 md:gap-5 lg:gap-16">
+          <span className="text-zinc-200/50">Languages and tools</span>
+          <Logo logoSrc={react} alt={react} />
+          <Logo logoSrc={tailwind} alt={tailwind} />
+          <Logo logoSrc={js} alt={js} />
+          <Logo logoSrc={express} alt={express} />
+          <Logo logoSrc={mongodb} alt={mongodb} />
+          <Logo logoSrc={figma} alt={figma} />
+          <Logo logoSrc={vscode} alt={vscode} />
+        </div>
       </div>
     </section>
   );
@@ -27,7 +28,7 @@ function LogosSection() {
 function Logo({ logoSrc, alt }) {
   return (
     <div className="logo">
-      <img className="h-5" src={logoSrc} alt={alt} />
+      <img className="h-7" src={logoSrc} alt={alt} />
     </div>
   );
 }
