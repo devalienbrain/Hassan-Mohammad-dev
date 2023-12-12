@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <div>
       <Helmet>
-        <title>Hassan | skills</title>
+        <title>Hassan | Skills</title>
       </Helmet>
       <PageTitle title={title} subTitle={subTitle}></PageTitle>
       <div>

@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <div>
       <Helmet>
-        <title>Hassan | projects</title>
+        <title>Hassan | Projects</title>
       </Helmet>
       <PageTitle title={title} subTitle={subTitle}></PageTitle>
       <div>

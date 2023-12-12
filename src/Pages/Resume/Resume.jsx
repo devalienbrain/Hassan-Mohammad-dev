@@ -22,7 +22,7 @@ const Resume = () => {
             target="_blanc"
             className="hover:underline"
           >
-            Click to view
+            Click to view my resume.
           </a>
 
           <div className="divider"> Or, </div>
