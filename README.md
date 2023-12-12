@@ -2,7 +2,7 @@
 
 Live site link: https://quick-snakes.surge.sh/
 
-Features you can include in your web developer portfolio project developed with React.js and Tailwind CSS:
+Features of my web developer portfolio project developed with React.js and Tailwind CSS:
 
 1. Home:
 - Introduction: A brief introduction about myself, highlighting my passion for web development.
