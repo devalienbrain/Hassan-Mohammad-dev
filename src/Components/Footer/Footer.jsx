@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col text-left">
           <h3 className="font-black text-xl">Contacts</h3>
           <p className="flex flex-col text-left text-sm text-zinc-300/70">
-            <small>email: hassan.devalienbrain@gmail.com</small>
+            <small>email: hassanmohammad0457@gmail.com</small>
             <small>phone: +880 1893 070812</small>
             <small>location: Dhaka, Bangladesh</small>
           </p>
@@ -31,11 +31,18 @@ const Footer = () => {
             Linkedin
           </a>
           <a
-            href="https://drive.google.com/file/d/1ju22iiK1HEU-B1W8Pn1CKIC1DBM7lhtt/view?usp=sharing"
+            href="https://drive.google.com/file/d/1UhelAqtzdFCTa2sS1GnNLiBQYjK8cKgd/view?usp=sharing"
             target="_blanc"
             className="link link-hover"
           >
             Resume
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1CGxJCrSUUFQ5n50VPs6aLJN9yL3xf242/view?usp=sharing"
+            target="_blanc"
+            className="link link-hover"
+          >
+            Video Resume
           </a>
         </nav>
       </footer>

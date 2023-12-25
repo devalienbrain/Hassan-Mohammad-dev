@@ -16,7 +16,7 @@ const Education = () => {
           <h2 className=" font-bold text-lg text-green-300/25">
             University of Dhaka
           </h2>
-          <h2 className=" font-bold text-sm">Passing year: 2020</h2>
+          <h2 className=" font-bold text-sm">Passing year: 2020-21</h2>
         </div>
       </section>
     </div>

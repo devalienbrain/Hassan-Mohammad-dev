@@ -9,14 +9,14 @@ const Experience = () => {
       <section className="p-5">
         <div className="flex flex-col gap-5">
           <div className="divider divider-success w-1/4 mx-auto"></div>
-          <h5 className="font-medium text-lg">Working as</h5>
+          <h5 className="font-medium text-lg">Worked as</h5>
           <h2 className=" font-extrabold text-xl">
             Software Developement Engineer
           </h2>
           <h2 className="text-green-300/25 font-bold text-lg">
-            SRDL Project, ICT Division
+            SRDL Project, DoICT, Agargaon, Dhaka
           </h2>
-          <h2 className=" font-bold text-sm">Job tenure: 1 yrs+</h2>
+          <h2 className=" font-bold text-sm">Job tenure: 1 yrs (2022-2023)</h2>
         </div>
       </section>
     </div>
