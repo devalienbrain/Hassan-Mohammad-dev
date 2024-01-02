@@ -3,7 +3,7 @@ const SkillCard = ({ skill }) => {
   return (
     <div className="card bg-zinc-300/10 rounded-lg relative">
       <div className="card-body text-center flex flex-col gap-7">
-        <span className="font-black text-2xl text-green-400 uppercase">
+        <span className="font-bold text-xl text-yellow-400 uppercase">
           {title}
         </span>{" "}
         <p className="text-sm">{details}</p>

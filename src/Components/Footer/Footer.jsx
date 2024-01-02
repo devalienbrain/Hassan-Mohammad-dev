@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col text-left">
           <h3 className="font-black text-xl">Contacts</h3>
           <p className="flex flex-col text-left text-sm text-zinc-300/70">
-            <small>email: hassanmohammad0457@gmail.com</small>
+            <small>email: hassansabbir0321@gmail.com</small>
             <small>phone: +880 1893 070812</small>
             <small>location: Dhaka, Bangladesh</small>
           </p>
@@ -31,7 +31,7 @@ const Footer = () => {
             Linkedin
           </a>
           <a
-            href="https://drive.google.com/file/d/1UhelAqtzdFCTa2sS1GnNLiBQYjK8cKgd/view?usp=sharing"
+            href="https://docs.google.com/document/d/1HqzqNTkhtamA70NjiNhPmuCkvJ6tX0z7/edit?usp=sharing&ouid=112922815759485059346&rtpof=true&sd=true"
             target="_blanc"
             className="link link-hover"
           >

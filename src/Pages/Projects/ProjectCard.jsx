@@ -18,8 +18,7 @@ const ProjectCard = ({ project }) => {
       <div className="card bg-zinc-200/5 rounded-2xl relative flex flex-col md:flex-row p-5">
         <div className="card-body text-left flex flex-col gap-7 flex-1">
           <p>
-            Project title:{" "}
-            <p className="font-black text-green-600 text-xl">{websiteName}</p>
+            Project title: <p className="font-black text-xl">{websiteName}</p>
           </p>
           <p>
             Language/technology used:{" "}
@@ -33,7 +32,7 @@ const ProjectCard = ({ project }) => {
         </div>
         <div className="divider divider-success"></div>
         <div className="flex-1 flex justify-center items-center">
-          <div className="flex flex-col gap-5 text-left text-sm text-green-400">
+          <div className="flex flex-col gap-5 text-left text-sm">
             <a
               href={liveSiteLink}
               target="_blank"
